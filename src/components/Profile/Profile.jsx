@@ -1,7 +1,9 @@
+import s from "./Profile.module.css";
+
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div>
-      <div>
+    <div className={s.wrapper}>
+      <div className={s.imgWrapper}>
         <img src={image} alt="User avatar" />
         <p>{name}</p>
         <p>{tag}</p>
