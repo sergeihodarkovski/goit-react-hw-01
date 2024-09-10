@@ -5,13 +5,13 @@ const Profile = ({ name, tag, location, image, stats }) => {
     <div className={s.wrapper}>
       <div className={s.imgWrapper}>
         <img src={image} alt="User avatar" />
-        <p>{name}</p>
+        <p className={s.name}>{name}</p>
         <p>{tag}</p>
         <p>{location}</p>
       </div>
 
-      <ul>
-        <li>
+      <ul className={s.list}>
+        <li className={s.item}>
           <span>Followers</span>
           <span>{stats.followers}</span>
         </li>

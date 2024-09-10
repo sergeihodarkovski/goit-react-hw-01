@@ -1,6 +1,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .titel {
@@ -15,6 +16,8 @@ table {
   background-color: black;
   color: white;
   text-align: center;
+  border: 1px solid black;
+  margin: 0;
 }
 
 .row {
@@ -22,7 +25,7 @@ table {
   grid-template-columns: 1fr 1fr 1fr;
   width: 90%;
   margin: 0 auto;
-  padding: 10px;
+  padding: o;
 }
 
 .row:nth-child(odd) {
